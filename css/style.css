@@ -1,0 +1,499 @@
+:root{
+    --mainColor:#dc3545;
+}
+
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    padding-top: 1rem !important;
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+.navbar-brand{
+    padding: 0 !important;
+}
+.navbar-brand img{
+    width: 200px;
+    height: 40px;
+    margin-right: 124px;
+
+}
+
+.nav-item .nav-link{
+    color:rgba(202, 206, 221, 0.8) !important;
+    font-size: 0.9rem
+}
+
+.navbar-nav .nav-item a:hover{
+    border-bottom: 2px solid var(--mainColor);
+    color:#fff !important;
+}
+.nav-item .btn{
+    background-color: var(--mainColor) !important;
+    color:#fff;
+    padding: 6px 24px;
+    margin: 10px;
+
+}
+
+.nav-item .btn:hover{
+    background-color: transparent !important
+}
+
+.intro{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top:0;
+    left: 0;
+    background-image: url(../img/intro-bg.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+.intro-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+.intro-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.card-title:first-of-type{
+    padding-top: 100px !important;
+}
+.card-title{
+    font-size: 50px;
+}
+
+.card-title span{
+    color:var(--mainColor)
+}
+
+.card-title:last-of-type{
+    font-size: 1.25rem;
+   
+}
+
+
+.circle-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: rgba(101, 111, 150, 0.15);
+    cursor: pointer;
+    
+}
+
+.circle-btn:hover{
+    background-color:#f82249;
+}
+
+.circle{
+    background-color: var(--mainColor);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.circle i{
+    font-size: 24px;
+}
+
+/*About Section*/
+.about-section{
+    width: 100%;
+    background-image: url(../img/about-bg.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+
+.about-info-ovarlay{
+    color: #fff;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    line-height: 1.3
+}
+
+
+
+.about-info:first-of-type{
+  margin-top: 20px
+}
+
+.about-info p{
+    font-size: 13px
+}
+
+.about-info h5{
+    font-size: 1.2rem;
+    font-weight: normal
+}
+
+
+
+.event-speakers-section{
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.event-speakers-section h2{
+    font-size: 2.5rem;
+    letter-spacing: 2px
+}
+
+
+.event-speakers-section h5{
+    color: #6c757d;
+    margin-bottom: 0
+  
+}
+.event-speakers-section hr{
+    width: 5%;
+    height: 5px;
+    background-color: var(--mainColor)
+}
+
+
+.speaker-info{
+    position: relative;
+    top:0;
+    left: 0;
+    overflow: hidden;
+}
+
+.speaker-info-overlay {
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.5s ease-in-out;
+}
+
+.speaker-info-overlay:hover{
+    position: absolute;
+    top: 40%;
+    height: 80%;
+
+}
+
+.speaker-info-overlay h6{
+    font-size: 1.45rem
+}
+
+.speaker-info-overlay span{
+    padding-top: 30px
+}
+
+.speaker-contact-info{
+  padding-top: 10px
+}
+
+.speaker-contact-info i:hover{
+    color: var(--mainColor)
+}
+
+
+.event-schdule-section{
+    background-color: #f8f9fa;
+    margin-top: 75px;
+    padding-top: 75px;
+}
+
+.event-schdule-section h2{
+    font-size: 2.5rem;
+    letter-spacing: 2px
+}
+
+
+.event-schdule-section h5{
+    color: #6c757d;
+    margin-bottom: 0
+  
+}
+.red-line{
+    width: 5%;
+    height: 5px;
+    background-color: var(--mainColor)
+}
+
+
+#pills-tab  .nav-item .nav-link{
+    background-color:#0e1b4d !important;
+    border-radius: 50px;
+    color: #fff !important;
+    
+}
+
+#pills-tab   .nav-link:hover{
+outline: transparent !important;
+
+}
+
+#pills-tab   .nav-link.active{
+    background-color: var(--mainColor) !important;
+    border-radius: 50px !important;
+}
+
+.tab-pane article:hover{
+    background-color: #fff !important
+}
+
+article div:first-of-type p{
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px
+}
+
+article div:last-of-type p {
+    font-size: 12px
+}
+
+
+
+.map-info .layout{
+    top:0;
+    left:0;
+    z-index:1;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 90%;
+    height: 100%;
+}
+
+.map-info .layout p{
+    text-align: justify;
+}
+
+.gallery img{
+    width:108%;
+ 
+}
+
+
+
+.hotels-section{
+    background-color: #f8f9fa !important;
+    padding-top: 5rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.hotels-section .card .card-title{
+    padding-top: 0 !important;
+    color: #0e1b4d;
+    cursor: pointer;
+}
+
+.hotels-section .card .card-title:hover{
+    color: var(--mainColor)
+}
+
+.hotels-section .card .card-text i{
+    color:#ffc31d;
+    font-size: 10px
+}
+
+
+/*Gallery Section*/
+
+.gallery-section .carousel-inner{
+    overflow: visible;
+  
+}
+
+
+
+.gallery-section .carousel-item{
+    margin-right: -3%;
+    transition: transform 0.5s step-end;
+    display: inline;
+    position: relative;
+}
+
+.gallery-section .carousel-item.active{
+    z-index: 100;
+}
+
+
+.gallery-section .carousel-item.active img {
+    border: 4px solid var(--mainColor);
+    transform: scale(1.7);
+    z-index: 100;
+   
+
+}
+
+
+
+
+
+.gallery-section .carousel-indicators {
+    bottom: -95px!important
+}
+
+.gallery-section .carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #eee
+}
+
+.gallery-section .carousel-indicators li.active{
+    background-color: var(--mainColor)
+}
+
+/*FAQ Section*/
+
+
+.faq-section{
+    padding-top:9rem !important ;
+}
+
+
+.faq-section i{
+    margin-left: 36rem;
+}
+
+
+.faq-section .accordion .card:first-of-type{
+    border: none !important;
+}
+
+.faq-section .accordion .card:last-of-type{
+    border-bottom: none !important
+}
+
+.faq-section .accordion .card{
+  
+    border-left: none !important;
+    border-right: none !important;
+    margin-top: 1rem;
+    margin-bottom: 1rem
+}
+
+
+.faq-section .accordion .card .card-header{
+    background-color: #fff !important;
+    border-left: none !important;
+    border-right: none !important;
+    padding-top: 22px
+   
+}
+
+/*newsletter section*/
+
+.newsletter-section {
+    margin-top:9rem !important ;
+    
+}
+
+.newsletter-section{
+    width: 100%;
+    background-image: url(../img/subscribe-bg.jpg);
+    background-attachment: fixed;
+    
+}
+
+.newsletter-section .newsletter-ovarlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.newsletter-section .navbar{
+    background: transparent !important;
+}
+
+.newsletter-ovarlay .search-input{
+    width: 25rem !important;
+    
+}
+
+.newsletter-ovarlay .form-inline .btn{
+    width: 7rem !important
+}
+
+/*buy tickets section*/
+
+.tickets-section{
+    background-color: #f8f9fa
+}
+
+.tickets-section .card{
+    border: none
+}
+
+.tickets-section .card span{
+    font-size: 40px
+}
+.tickets-section .card .card-title{
+    padding-top: 0 !important
+}
+
+.tickets-section .card ul li{
+    list-style-image: url(../img/true-check.png);
+    padding-top: 1.4rem;
+    font-size: 18px;
+   
+}
+
+.tickets-section .cardOne ul li:nth-child(4),.tickets-section .cardOne ul li:nth-child(5),.tickets-section .cardOne ul li:nth-child(6){
+    list-style-image: url(../img/false-check.png)
+}
+.tickets-section .cardTwo ul li:nth-child(5),.tickets-section .cardTwo ul li:nth-child(6){
+    list-style-image: url(../img/false-check.png)
+}
+
+/*CONTACT US SECTION*/
+.contact-section .contact-info{
+    padding-top: 25px;
+    margin-top: 65px;
+    height: 100px !important;
+}
+
+.contact-section .contact-info:first-of-type ,.contact-section .contact-info:nth-child(2){
+    border-right: 1px solid #eee
+} 
+
+/*Footer Section*/
+footer p:first-of-type{
+    font-size: 15px;
+   
+}
+footer p{
+    font-size: 12px;
+    line-height: 0.05px;
+}
